@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<div class="container" style="overflow: hidden">
+    <div class="col-left" style="width: 30%; float: left;">
+        <h2>Tạo tài khoản</h2>
+        <p>Tạo tài khoản để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích, nhận nhiều ưu đãi hấp dẫn.</p>
+        <img src="Images/2.png">
+    </div>
+    <div class="col-right" style="width: 68%; float: left;">
+        <h2>Tạo tài khoản</h2>
+        <form name="tao-tai-khoan" method="post" action="">
+            <p>
+                <label for="">Họ tên</label>
+                <input type="text" name="name" value="">
+            </p>
+            <p>
+                <label for="">SDT</label>
+                <input type="text" name="phone" value="">
+                <button>Gửi mã xác thực</button>
+            </p>
+            <p>
+                <label for="">Mã xác thực</label>
+                <input type="text" name="code" value="">
+            </p>
+            <p>
+                <label for="">Email</label>
+                <input type="email" name="email" value="">
+            </p>
+            <p>
+                <label for="">Mật khẩu</label>
+                <input type="password" name="password" value="">
+            </p>
+            <p>
+                <label for="">Giới tính</label>
+                <span>
+                    Nam
+                    <input type="radio" name="gender" value="Nam">
+                </span>
+                <span>
+                    Nữ
+                    <input type="radio" name="girl" value="Nu">
+                </span>
+            </p>
+            <p>
+                <select name="day" id="">
+                    <option value="">Ngày sinh</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <select name="month" id="">
+                    <option value="">Tháng sinh</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <select name="month" id="">
+                    <option value="">Năm sinh</option>
+                    <option value="1">1997</option>
+                    <option value="2">1996</option>
+                    <option value="3">1995</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" name="bantin" value=""> Nhận các thông tin qua email
+            </p>
+            <p>
+                <input type="submit" name="guithongtin" value="Tạo tài khoản">
+            </p>
+            <p>Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo <a href="#">điều kiện sử dụng và chính sách của Tiki.</a></p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
