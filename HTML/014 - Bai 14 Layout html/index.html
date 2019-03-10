@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="page-wrap">
+    <div class="header">
+        Nội dung của header
+    </div>
+    <div class="navigation">
+        <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><a href="">Tin tức</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="side-bar-left">
+            Nội dung side bar bên trái
+        </div>
+        <!--end.side-bar-->
+        <div class="content">
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </div>
+        <div class="side-bar-right">
+            Nội dung side bar bên trái
+        </div>
+    </div>
+    <footer>
+        Đây là footer
+    </footer>
+</div>
+</body>
+<style type="text/css">
+    .page-wrap{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .page-wrap .header{
+        background: yellow;
+        height: 50px;
+        line-height: 50px;
+    }
+    .page-wrap .navigation ul{
+        overflow: hidden;
+        background: darkorange;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .page-wrap .navigation ul li{
+        list-style: none;
+        float: left;
+        margin-right: 15px;
+    }
+    .page-wrap .main{
+        overflow: hidden;
+    }
+    .page-wrap .side-bar-left{
+        width: 20%;
+        background: red;
+        float: left;
+    }
+    .page-wrap .content{
+        background: blue;
+        width: 50%;
+        float: left;
+    }
+    .page-wrap .side-bar-right{
+        background: #06f857;
+        width: 30%;
+        float: right;
+    }
+    .page-wrap footer{
+        background: aqua;
+    }
+</style>
+</html>
