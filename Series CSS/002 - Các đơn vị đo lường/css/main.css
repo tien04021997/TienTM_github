@@ -1,0 +1,20 @@
+#px{
+    width: 350px;
+    height: 250px;
+    background-color: red;
+}
+#pt{
+    width: 350px;
+    height: 250px;
+    background-color: yellow;
+}
+#box{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+#child{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}

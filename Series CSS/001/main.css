@@ -1,0 +1,12 @@
+#tieu-de{
+    font-weight: bold;
+    color: green;
+}
+.tieu-de{
+    font-weight: bold;
+    color: red;
+}
+#menu ul ul > p{
+    background: red;
+    color: white;
+}
