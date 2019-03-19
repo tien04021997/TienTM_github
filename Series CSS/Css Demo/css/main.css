@@ -1,0 +1,105 @@
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header-top{
+    margin: 15px 0px;
+}
+.header-top h1{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ff0000;
+    line-height: 1.3;
+}
+.header-between{
+    width: 100%;
+}
+.heder-logo{
+    width: 30%;
+    float: left;
+}
+.heder-logo img{
+    width: 150px;
+    height: auto;
+}
+.header-search{
+    width: 70%;
+    float: left;
+}
+.form-search{
+    float: right;
+    position: relative;
+    margin-top: 25px;
+}
+.form-search input{
+    width: 350px;
+    padding: 7px 10px;
+    border: 1px solid #e3d3d3;
+}
+.form-search button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 9px 15px;
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.header-menu{
+    width: 100%;
+}
+.header-menu{
+    background: #2196F3;
+    margin-top: 100px;
+    height: 40px;
+}
+.list-menu{
+    margin: 0 auto;
+    display: table;
+}
+.list-menu > li{
+    float: left;
+}
+.list-menu > li > a{
+    padding: 12px 25px;
+    line-height: 40px;
+    border-right: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.list-menu > li > a:hover{
+    background: #ff0000;
+    color: #fff;
+}
+.list-menu > li:first-child > a{
+    border-left: 1px solid #fff;
+}
+.list-menu > li:hover .sub-menu{
+    display: block;
+    z-index: 999;
+}
+.sub-menu{
+    min-width: 170px;
+    position: absolute;
+    display: none;
+}
+.sub-menu > li {
+    background: #2196F3;
+    padding: 10px 15px;
+    border-top: 1px solid #fff;
+    position: relative;
+}
+.sub-menu > li:last-child{
+    border-bottom: 1px solid #fff;
+}
+.sub-menu > li > a{
+    color: #fff
+}
