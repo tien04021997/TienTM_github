@@ -1,0 +1,1 @@
+alert("Load js từ bên ngoài");
