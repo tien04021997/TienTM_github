@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container" style="padding: 20px; background: orange;">
+    $() là cú pháp của selector jquery
+    document là đại diện của toàn trang html
+    ready có nghĩa là khi mà trang web được tải xong
+    và chúng ta sẽ viết các lệnh jquery hoặc js ở trong method ready
+    để đảm bảo js được chạy sau khi trang web đã được tải xuống
+</div>
+
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+       // di chuột vào
+        // bên trong mousenter là 1 callback
+        $('.container').mouseenter(function () {
+           $(this).css('background', 'green');
+        });
+
+        //di chuột ra
+        $('.container').mouseleave(function () {
+           $(this).css('background', 'orange');
+        });
+
+    });
+</script>
+</html>

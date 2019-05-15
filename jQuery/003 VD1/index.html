@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    $() là cú pháp của selector jquery
+    document là đại diện của toàn trang html
+    ready có nghĩa là khi mà trang web được tải xong
+    và chúng ta sẽ viết các lệnh jquery hoặc js ở trong method ready
+    để đảm bảo js được chạy sau khi trang web đã được tải xuống
+</div>
+<div style="margin-top: 30px;">
+    <button type="button" id="control">Click</button>
+</div>
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+    //    sự kiện click
+    //    truyền vào method click() 1 callback
+        $('#control').click(function () {
+            // phương thức css trong jquery can thiệp vào css của đối tượng
+            // và 2 tham số . tham số 1 là tên của thuộc tính css
+            // tham số thứ 2 là giá trị của thuộc tính đó
+            $('.container').css('background', 'orange');
+            $('.container').css('padding', '30px');
+            $('.container').css('color', 'green');
+        });
+    });
+</script>
+</html>
